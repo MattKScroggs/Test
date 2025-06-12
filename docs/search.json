@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "My Analytics Project",
     "section": "",
-    "text": "Welcome!\n\n\nCode\nChickWeight |&gt;\n  group_by(Diet, Time) |&gt;\n  summarize(avgWeight=mean(weight)) |&gt;\n  ggplot(mapping = aes(x=Time, y=avgWeight, color=Diet))+\n  geom_line()+\n  labs(title=\"Comparison of Chick Weights by Diet Over Time\", x=\"Days\", y=\"Weight(g)\")",
+    "text": "Welcome! Click Code to see the code that created the graph.\n\n\nCode\nChickWeight |&gt;\n  group_by(Diet, Time) |&gt;\n  summarize(avgWeight=mean(weight)) |&gt;\n  ggplot(mapping = aes(x=Time, y=avgWeight, color=Diet))+\n  geom_line()+\n  labs(title=\"Comparison of Chick Weights by Diet Over Time\", x=\"Days\", y=\"Weight(g)\")",
     "crumbs": [
       "Home"
     ]

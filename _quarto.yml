@@ -21,3 +21,4 @@ format:
     css: styles.css
     toc: true
     code-fold: true
+    #code-fold makes the code tab pop up before any images created

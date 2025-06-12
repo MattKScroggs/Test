@@ -11,7 +11,7 @@ execute:
 library(tidyverse)
 ```
 
-Welcome!
+Welcome! Click Code to see the code that created the graph.
 
 ```{r}
 
